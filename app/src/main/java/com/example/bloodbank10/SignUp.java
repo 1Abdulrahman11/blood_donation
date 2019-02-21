@@ -171,7 +171,7 @@ public class SignUp extends AppCompatActivity {
                             finish();
                         } else {
                             AlertDialog.Builder builder = new AlertDialog.Builder(SignUp.this);
-                            builder.setMessage("Register Failed!.")
+                            builder.setMessage("Register Failed!...")
                                     .setNegativeButton("Retry", null)
                                     .create()
                                     .show();
