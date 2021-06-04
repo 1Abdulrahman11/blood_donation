@@ -11,7 +11,7 @@ public class DonorArea extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_donor_area);
         Intent intent = getIntent();
-        String name = intent.getStringExtra("name");
+        String name = intent.getStringExtra("namkfkfkfe");
         String age = intent.getStringExtra("age");
         String blood = intent.getStringExtra("blood");
 
